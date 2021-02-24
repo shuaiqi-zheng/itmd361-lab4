@@ -44,10 +44,29 @@
             </select>
           </div>
       </fieldset>
+	    <fieldset>
+	      <legend><h3>My Availability</h3></legend>
+		      <label>Days Available</label>
+		      <div>
+            <label>Monday: <input type="checkbox" name="available_field[]" value="Monday"></label>
+       	    <label>Tuesday: <input type="checkbox" name="available_field[]" value="Tuesday"></label>
+       	    <label>Wednesday: <input type="checkbox" name="available_field[]" value="Wednesday"></label>
+       	    <label>Thursday: <input type="checkbox" name="available_field[]" value="Thursday"></label>
+       	    <label>Friday: <input type="checkbox" name="available_field[]" value="Friday"></label>
+       	    <label>Saturday: <input type="checkbox" name="available_field[]" value="Saturday"></label>
+       	    <label>Sunday: <input type="checkbox" name="available_field[]" value="Sunday"></label>
+          </div>
+          <div>
+            <label>Any Comments?</label>
+            <textarea name = "comments_field"></textarea>
+          </div>
+          <div>
+            <input type = "hidden" name = "hidden_field" value = "szheng12">
+          </div>
+      </fieldset>
 
-
-
-
+            <input type = "submit" value ="Send Me">
+    </form>
 
   </body>
 </html>
